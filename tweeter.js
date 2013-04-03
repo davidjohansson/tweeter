@@ -44,4 +44,4 @@ function log(date) {
 
 setInterval(function (){
 		tweet(Math.random().toString(36).substr(2,16));
-}, 2 * 60 * 1000);
+}, 60 * 60 * 1000);
